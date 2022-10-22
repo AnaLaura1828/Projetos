@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title> Project trybewarts</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+      class="trybewarts-header-logo"src="/images/trybewarts-header-logo.svg"
+        alt=""/>
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login" action="">
+      <input  class="email" type="text" name="email" placeholder="Email"/>
+      <input class="senha"type="password"name="password"placeholder="Senha"/>
+        <button class="botao-entrar">Entrar</button>
+      </form>
+    </header>
+    <main>
+
+      <form  id="evaluation-form" action="">
+      <h2>Formulário de Avaliação</h2>
+      <div class="name">
+        <input type="text" placeholder="Nome" id="input-name">
+        <input type="text" placeholder="Sobrenome" id="input-lastname">
+      </div>
+      <div class="myDiv">
+        <input type="text" placeholder="Email" id="input-email">
+       
+        <h3>Casa:</h3>
+        <select id="house">
+        <option text="Gitnória" value="Gitnória" id="gitnoria-house" >Gitnória</option>
+
+        <option text="Reactpuff" value="Reactpuff" id="reactpuff-house" >Reactpuff</option>
+
+        <option text="Corvinode" value="Corvinode" id="corvinode-house" >Corvinode</option>
+
+        <option text="Pytherina" value="Pytherina" id="pytherina-house" >Pytherina</option>
+        </select>
+      </div>
+
+      <div class="bloquinhos">
+      
+      <label id="label-family" for="">Qual sua família?</label>
+       <label><input type="radio" name="family" value="Frontend">Família Frontend</label>
+       <label><input type="radio" name="family" value="Backend">Família Backend</label>
+       <label><input type="radio" name="family" value="FullStack">Família FullStack</label>
+    
+
+    
+      <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+      <label><input type="checkbox" name="HoFs" id="H" value="HoFs">HoFs</label>
+      <label><input type="checkbox" name="Jest" id="J" value="Jest">Jest</label>
+      <label><input type="checkbox" name="Promises" id="P" value="Promises">Promises</label>
+      <label><input type="checkbox" name="React" id="R" value="React">React</label>
+      <label><input type="checkbox" name="SQL" id="S" value="SQL">SQL</label>
+      <label><input type="checkbox" name="Python" id="PT" value="Python">Python</label>
+     <br>
+    </div>
+
+    </div>
+      <label for="" id="label-rate">Como você avalia a Trybewarts?
+        <input type="radio" id="radio-buttons1" name="rate" value="valor">1
+        <input type="radio" id="radio-buttons2" name="rate" value="valor">2
+        <input type="radio" id="radio-buttons3" name="rate" value="valor">3
+        <input type="radio" id="radio-buttons4" name="rate" value="valor">4
+        <input type="radio" id="radio-buttons5" name="rate" value="valor">5
+        <input type="radio" id="radio-buttons6" name="rate" value="valor">6
+        <input type="radio" id="radio-buttons7" name="rate" value="valor">7
+        <input type="radio" id="radio-buttons8" name="rate" value="valor">8
+        <input type="radio" id="radio-buttons9" name="rate" value="valor">9
+        <input type="radio" id="radio-buttons10" name="rate" value="valor">10
+      </label>
+     <br>
+      <label id="couter" class="textarea" value="500" >Deixe seu comentário: </label>
+      <textarea  id="textarea" maxlength="500" cols="10" rows="8"></textarea >
+      <p id="counter" value="500">500</p>
+     <br>
+      <div>
+    <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
+    <input id="agreement" type="checkbox">
+    </div>
+    <button  id="submit-btn" type="submit">Enviar</button>
+    </form>
+   
+    <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="">
+    </main>
+   
+    
+    <footer>Direitos reservados à Trybewarts©</footer>
+    
+    <script src="script.js"></script>
+
+
+  </body>

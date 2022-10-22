@@ -1,0 +1,9 @@
+.name-email-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.space {
+  width: 15px;
+}

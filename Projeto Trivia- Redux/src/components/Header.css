@@ -1,0 +1,63 @@
+.header-header {
+  background-color: rgba(255, 255, 255, 0.164);
+  box-shadow: 2px 2px 5px rgb(61, 61, 61);
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.header-sub-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.header-header h4 {
+  font-size: 22px;
+}
+
+.header-logo {
+  height: 7vmin;
+  padding: 10px 0;
+  pointer-events: none;
+}
+
+.header-header div {
+  align-items: center;
+  display: flex;
+}
+
+.header-profile-pic {
+  height: 4vmin;
+}
+
+.header-header div div {
+  width: 1vmin;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .header-logo {
+    animation: shake infinite 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  }
+}
+
+@keyframes shake {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

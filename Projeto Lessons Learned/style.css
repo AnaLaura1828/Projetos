@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+#titulo {
+    position: absolute;
+    margin-left: 555px;
+    font-size:30px ;
+}
+
+#licoes_aprendidas {
+    margin: 30px;
+    font-family: cursive;
+}
+
+#licoes_a_aprender {
+    margin: 40px;
+    font-family: cursive;
+}
+
+#minha_foto {
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+}
