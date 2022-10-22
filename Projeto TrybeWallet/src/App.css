@@ -1,0 +1,128 @@
+body {
+  /* background-color: rgb(28, 58, 58); */
+  background-image: url('./dinheiro.jpg');
+}
+
+.input-email {
+ background-color:  rgb(198, 224, 216);
+ border-radius: 5px;
+ color: aliceblue;
+ display: flex;
+ flex-direction: column;
+ margin-top: 180px;
+ margin-left: 500px;
+ height: 25px;
+ width: 200px;
+}
+
+.input-senha {
+  background-color: rgb(198, 224, 216);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 500px;
+  height: 25px;
+  width: 200px;
+ }
+
+.btn-entrar {
+  align-items: center;
+  background-color: rgb(101, 112, 206);
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  height: 25px;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 540px;
+  text-decoration: none;
+  width: 120px;
+}
+
+.h2 {
+  color: rgb(5, 7, 8);
+  margin-left: 512px;
+  margin-top: 50px;
+}
+
+.header {
+  /* align-items: center; */
+  /* background-color: rgb(66, 103, 128); */
+  /* border-radius: 5px; */
+  color: bisque;
+  display: flex;
+  margin-left: 30px;
+  flex-direction: column;
+}
+
+.input-valor {
+  border-radius: 5px;
+  height: 18px;
+}
+
+.form-carteira {
+  background-color: rgb(54, 96, 124);
+  display: flex;
+  margin-top: 10px;
+  height: 100px;
+  align-items: center;
+}
+
+.input-descricao {
+  border-radius: 5px;
+  height: 18px;
+}
+
+.select-moeda {
+  border-radius: 5px;
+  height: 18px;
+  margin-left: 32px;
+}
+
+.select-pagamento {
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 32px;
+}
+
+.select-categoria {
+  border-radius: 5px;
+  height: 20px;
+  margin-left: 32px;
+  width: 110px;
+}
+
+.add-despesa {
+  background-color: rgb(58, 112, 143);
+
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.label-descricao {
+  margin-left: 8px;
+}
+
+.label-valor {
+  margin-left: 40px;
+}
+
+.toda-tabela {
+  border-spacing: 30px;
+}
+
+.div-tabela {
+ background-color: rgb(81, 106, 122);
+}
+
+.btn-tabela {
+  background-color: rgb(101, 112, 206);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* .div-login {
+  background-color: rgb(28, 58, 58);
+} */

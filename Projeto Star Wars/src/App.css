@@ -1,0 +1,92 @@
+* {
+  background-image: url('../star\ wars.jpg');
+  color: white;
+}
+
+.table {
+  justify-content: space-between;
+  color: rgb(173, 57, 57);
+  margin-right: 50px;
+  font-size: larger;
+  column-count: 2;
+  text-align: center;
+  font-style: italic;
+}
+
+.td-table {
+  color: rgb(44, 160, 82);
+  font-size: medium;
+}
+
+.div-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.pesquisa {
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.div-pesquisa {
+  display: flex;
+  justify-content: center;
+}
+.select-colums {
+  border-radius: 4px;
+  background-color: rgb(21, 53, 11);
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.length {
+  border-radius: 4px;
+  background-color: rgb(21, 53, 11);
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.number {
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 150px; 
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+input::placeholder {
+  color: rgb(224, 247, 23);
+}
+
+.img {
+  display: flex;
+  margin-left: 470px;
+  margin-top: 30px;
+  width: 350px;
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background-color: darkgreen;
+}
+
+.btn:hover {
+ background-color: rgb(88, 131, 8);
+ color:rgb(107, 109, 10);
+}

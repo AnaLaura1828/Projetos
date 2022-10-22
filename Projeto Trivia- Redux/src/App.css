@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #282c34;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.redirect-button {
+  background-image: linear-gradient(90deg, white, gray);
+  background-size: 500%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  padding: 10px 15px;
+  transition: 1.5s;
+}
+
+.redirect-button:hover {
+  background-position: right;
+}
+
+.redirect-button:disabled {
+  color: lightgray;
+}
+
+.input-text {
+  border: 2px solid darkgray;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 30px;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.green-border {
+  border: 1px solid green;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .App-logo {
+    animation: shake infinite 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  }
+}
+
+.App-header {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes shake {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
