@@ -11,7 +11,7 @@
 </details>
 	
 <details>
-<summary><strong>‼ Para testar a aplicaçãor</strong></summary><br />
+<summary><strong>‼ Para testar a aplicação</strong></summary><br />
 
 1. Clone o repositório
 
